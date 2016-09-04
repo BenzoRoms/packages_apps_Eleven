@@ -113,7 +113,7 @@ public class HomeActivity extends SlidingPanelActivity implements
             }
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.activity_base_content, fragment)
-                    .commit();
+                    .commitAllowingStateLoss();
 
             mLoadedBaseFragment = true;
             mTopLevelActivity = true;

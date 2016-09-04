@@ -25,7 +25,7 @@ LOCAL_AAPT_FLAGS := \
     --extra-packages android.support.v7.recyclerview
 
 LOCAL_PACKAGE_NAME := Eleven
-LOCAL_OVERRIDES_PACKAGES := Music
+LOCAL_OVERRIDES_PACKAGES := Music MusicFX
 
 LOCAL_JNI_SHARED_LIBRARIES := librsjni
 
